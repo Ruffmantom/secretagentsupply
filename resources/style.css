@@ -1,0 +1,60 @@
+html{
+  font-size: 18px;
+  background-color: White;
+}
+body{
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4rem;
+}
+h1, h4{
+  font-weight: bold;
+}
+.container{
+  max-width: 960;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1024px){
+  body{
+    font-size: 16px;
+  }
+}
+/* below is the company header*/
+.company{
+  background-color: black;
+  color: white;
+}
+.company .container{
+  display: flex;
+  align-items: center;
+  padding: 0.66rem 0 0.66rem 0.5rem;
+}
+.company img{
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+/* done with header */
+
+/* main banner */
+
+.main-banner{
+  background-image: url(../resources/images/moto.jpeg);
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.headline{
+  background-color: black;
+  width: 20rem;
+  padding: 2rem 3rem;
+  top: 9rem;
+  position: relative;
+  color: white;
+}
+
+.headline h1{
+  font-size: 2em;
+  margin: 0.25em 0;
+  line-height: 2em 0;
+}

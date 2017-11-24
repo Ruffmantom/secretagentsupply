@@ -6,59 +6,93 @@
     <link rel="stylesheet" href="./resources/reset.css" type="text/css">
     <link rel="stylesheet" href="./resources/style.css" type="text/css">
   </head>
+  <!--top header-->
   <body>
-    <header>
-      <img src="./resources/images/logo.png" alt="Logo, Binoculars">
-      <span>SECRET AGENT SUPPLY INC.</span>
-    </header>
-    <!-- "top-container" will have the background img for the top half of site-->
-    <figure class="top-container">
-      <figcaption class="new-arrival">
-        <p>NEW ARRIVAL</p>
-        <p>SPORT BIKE AND MOTORCYCLES</p>
-      </figcaption>
-    </figure>
-    <!-- under this line is the nav that goes under the top background img and caption -->
+    <div class="company">
+      <div class="container">
+        <img src="./resources/images/logo.png" alt="Logo">
+        <span>SECRET AGENT SUPPLY INC.</span>
+      </div>
+    </div>
+
+    <!--end header -->
+
+    <!-- main banner -->
+    <div class="container">
+      <div class="main-banner">
+        <div class="headline">
+          <h4>NEW ARRIVAL</h4>
+          <h1>SPORT BIKES AND MOTORCYCLES</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- end main banner -->
+
+    <!--navigation bar -->
     <nav>
-      <span>Eyewear</span>
-      <span>Apparel</span>
-      <span>Gadgets</span>
-      <span>Vehicles</span>
-      <span>Glasses</span>
-      <span>Contact</span>
+      <ul class="container">
+        <li>Eyewear</li>
+        <li>Apparel</li>
+        <li>Gadgets</li>
+        <li>Vehicles</li>
+        <li>Classes</li>
+        <li>Contact</li>
+      </ul>
+      <ul class="mobile-nav container">
+        <li>Menu</li>
+      </ul>
     </nav>
-    <!-- first half of page ubove this line -->
 
-    <!-- second half of page-->
+    <!-- end navigation bar -->
 
-    <div class="gadget-items">
-      <div class="item">
-        <img src="./resources/images/pen.png" alt="Image of exploding Pen">
-        <p>Exploding Pen</p>
+    <!-- products and buisness info-->
+    <div class="container">
+      <div class="products">
+        <div class="product">
+          <div class="product-img">
+            <img src="./resources/images/pen.png" alt="Image of pen">
+          </div>
+          <span class="description">Exploding Pen</span>
+        </div>
+        <div class="product watch">
+          <div class="product-img">
+            <img src="./resources/images/watch.png" alt="Image of a Watch">
+          </div>
+          <span class="description">Cellular Watch</span>
+        </div>
+        <div class="product glasses">
+          <div class="product-img">
+            <img src="./resources/images/glasses.png" alt="Image of Glasses">
+          </div>
+          <span class="description">Thermal Glasses</span>
+
+
+        </div>
       </div>
-      <div class="item">
-        <img src="./resources/images/watch.png" alt="Image of Cellular Watch">
-        <p>Cellular Watch</p>
-      </div>
-      <div class="item">
-        <img src="./resources/images/glasses.png" alt="Image of Thermal Glasses">
-        <p>Thermal Glasses</p>
+    </div>
+    <div class="container">
+      <div class="business-info">
+        <div class="info">
+          <span class="title">Location</span>
+          <span>-47.325643,23.23413
+          </span>
+        </div>
+        <div class="info">
+          <span class="title">Hours</span>
+          <span>0800 - 1800</span>
+        </div>
       </div>
     </div>
 
-    <!-- under this is the location bar and hours bar -->
+  <!-- end products and business info -->
 
-    <div class="location-hours">
-      <span>Location</span>
-      <span>Hours</span>
-    </div>
-
-    <!-- under this line is the footer -->
-
-<footer>
-  <p class="copywright">Copywright Secret Agent Supply Inc.</p>
-</footer>
-
+  <!-- footer -->
+    <footer>
+      <div class="container">
+        Copywright Secret Agent Supply Inc.
+      </div>
+    </footer>
 
 
 
